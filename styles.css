@@ -35,15 +35,16 @@ body{
 }
 @media only screen and (max-width: 649px) {
     .smol{
-        font-size: 125px;
+        font-size: 75px;
         font-family:Product Sans;
         column-count: 1;
         text-align: center;
     }
     .NavSm{
         margin: 14px;
-        display:flex;
-        column-count: 2px;
+        column-count: 2;
+        white-space: nowrap;
+
     }
 }
 
