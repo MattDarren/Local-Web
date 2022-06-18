@@ -21,9 +21,10 @@ body{
     text-decoration:none;
     color:black;
 }
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
     .big{
-        font-size: 175px;
+        padding-top:75px;
+        font-size: 150px;
         font-family:Product Sans;
         column-count: 1;
         text-align: center;
@@ -33,12 +34,13 @@ body{
         margin: 14px;
     }
 }
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 699px) {
     .smol{
         font-size: 75px;
         font-family:Product Sans;
         column-count: 1;
         text-align: center;
+        padding-top: 75px;
     }
     .NavSm{
         margin: 14px;
@@ -46,6 +48,17 @@ body{
         white-space: nowrap;
 
     }
+}
+.search{
+    text-align: center;
+    margin-top: 50px;
+}
+.foot{
+    position:fixed;
+    bottom:0;
+    background-color:rgb(190, 188, 188);
+    width:100%;
+    padding:15px;
 }
 
 
