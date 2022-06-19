@@ -33,6 +33,13 @@ body{
         column-count: 2;
         margin: 14px;
     }
+    .Fot{
+        column-count: 2;
+        white-space: nowrap;
+    }
+    .right{
+        float:right;
+    }
 }
 @media only screen and (max-width: 699px) {
     .smol{
@@ -48,6 +55,14 @@ body{
         white-space: nowrap;
 
     }
+    .FotSm{
+        column-count: 2;
+        flex-wrap: wrap;
+        display:flex;
+        justify-content: space-between;
+        text-align: center;
+        display: inline;
+    }
 }
 .search{
     text-align: center;
@@ -56,9 +71,9 @@ body{
 .foot{
     position:fixed;
     bottom:0;
-    background-color:rgb(190, 188, 188);
+    background-color:#e2e2e2;
     width:100%;
-    padding:15px;
+    padding:10px;
 }
 
 
