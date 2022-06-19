@@ -68,6 +68,14 @@ body{
     text-align: center;
     margin-top: 50px;
 }
+.bar{
+    width: 650px;
+    max-width: 80%;
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
 .foot{
     position:fixed;
     bottom:0;
@@ -75,5 +83,6 @@ body{
     width:100%;
     padding:10px;
 }
+
 
 
