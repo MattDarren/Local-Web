@@ -22,19 +22,43 @@
             <h4 class="color-danger m-4" style="color:#BB001B">Advanced Search</h4>
             <hr>
             <table class="m-5">
+                <form action="https://www.google.com/search">
                 <thead>
                     <tr>
                     <th><h5>Find pages with...</h5></th>
-                    <th><h5>To do this in search box</h5></th>
+                    <th></th>
+                    <th class="back"><h5>To do this in search box</h5></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>All of these words:</td>
+                        <td>all these words:</td>
+                        <td><input type="text" name="as_q"></td>
+                        <td class="dis">Type the important words: <span style="font-weight:bolder">tri-colour rat terrier</span></td>
                     </tr>
-
+                    <tr>
+                        <td>this exact word or phrase:</td>
+                        <td><input type="text" name="as_epq"></td>
+                        <td class="dis">Put exact words in quotes:<span style="font-weight:bolder">"rat terrier"</span></td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td>
+                        <td><input type="text" name="as_oq"></td>
+                        <td class="dis">Type OR between all the words you want:<span style="font-weight:bolder">miniature OR standard</span></td>
+                    </tr>
+                    <tr>
+                        <td>none of these words:</td>
+                        <td><input type="text" name="as_eq"></td>
+                        <td class="dis">Put a minus sign just before words that you don't want:<span style="font-weight:bolder">-rodent, -"Jack Russell"</span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="float:right"><button type="submit">Advanced Search</button></td>
+                    </tr>
                 </tbody>
             </table>
+        </form>
+        <hr>
         </div>
     </body>
 </html>
